@@ -1,0 +1,32 @@
+{
+    "assistant": {
+        "default_model": {
+            "provider": "anthropic",
+            "model": "claude-3-7-sonnet-latest"
+        },
+        "version": "2"
+    },
+    "buffer_font_family": "Iosevka Fixed",
+    "buffer_font_size": 15,
+    "icon_theme": "Catppuccin Mocha",
+    "inlay_hints": {
+        "enabled": true
+    },
+    "relative_line_numbers": true,
+    "show_whitespaces": "all",
+    "tab_size": 4,
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false
+    },
+    "terminal": {
+        "line_height": "standard"
+    },
+    "theme": {
+        "mode": "system",
+        "light": "Catppuccin Frappé",
+        "dark": "Catppuccin Mocha"
+    },
+    "ui_font_size": 16,
+    "vim_mode": true
+}
