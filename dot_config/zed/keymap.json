@@ -1,0 +1,29 @@
+[
+    {
+        "context": "Workspace",
+        "bindings": {}
+    },
+    {
+        "context": "ProjectPanel",
+        "bindings": {
+            "space n t": "workspace::NewCenterTerminal"
+        }
+    },
+    {
+        "context": "Editor && vim_mode == normal && !menu",
+        "bindings": {
+            "space e": "workspace::ToggleLeftDock",
+            "space w": "workspace::Save",
+            "space f f": "file_finder::Toggle",
+            "space f g": "pane::DeploySearch",
+            "space g c a": "editor::ToggleCodeActions"
+        }
+    },
+    {
+        "context": "Editor && vim_mode == insert && showing_completions",
+        "bindings": {
+            "ctrl-j": "editor::ContextMenuNext",
+            "ctrl-k": "editor::ContextMenuPrevious"
+        }
+    }
+]
